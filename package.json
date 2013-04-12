@@ -1,0 +1,26 @@
+{
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org> ()",
+  "name": "strainer",
+  "description": "Use simple equality tests to filter streams and arrays of objects.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thisandagain/strainer",
+  "repository": {
+    "url": "https://github.com/thisandagain/strainer"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "traverse": "~0.6.3"
+  },
+  "devDependencies": {
+    "codebux": "~0.1.2",
+    "tap": "~0.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}

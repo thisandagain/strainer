@@ -1,0 +1,218 @@
+[
+    {
+        "id": 27,
+        "url": "animator",
+        "active": true,
+        "title": "Animator",
+        "description": "Animators create the illusion of movement using a series of images. They breathe life into drawings, clay puppets, and computer models – creating worlds never before seen. Whether simple or realistic, animating is a form of magic. It’s hard to achieve, so Animators are patient, focused artists.",
+        "pole": "artist",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/animator_icon.png?4",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/animator_143x165.png?4",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/animator_253x292.png?4"
+        },
+        "stats": {
+            "challenges": 12,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 33,
+        "url": "astronomer",
+        "active": true,
+        "title": "Astronomer",
+        "description": "Astronomers investigate everything between Earth and the farthest reaches of the Universe. If instruments can collect it, Astronomers will analyze it. While professionals use expensive cutting-edge technology, this is still a field where amateurs with simple tools discover new things all the time.",
+        "pole": "scientist",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/astronomer_icon.png?2",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/astronomer_143x165.png?2",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/astronomer_253x292.png?2"
+        },
+        "stats": {
+            "challenges": 10,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 113,
+        "url": "backenddev",
+        "active": true,
+        "title": "Backend Dev",
+        "description": "These developers write scripts that interact with servers - the less visible \"backend\" of websites.  They're masters of fast responses and requests. Backend Devs program the  information sharing between servers and the apps and websites we use everyday.",
+        "pole": "hacker",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/backend_dev_icon.png",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/backend_dev_143x165.png",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/backend_dev_253x292.png"
+        },
+        "stats": {
+            "challenges": 7,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 104,
+        "url": "backyardfarmer",
+        "active": true,
+        "title": "Backyard Farmer",
+        "description": "Backyard Farmers can transform any space into an urban oasis. They speak the language of sunlight, water and soil.  Where others lay concrete and lawns, Backyard Farmers partner with plants and animals to turn the land around their homes into a food producing paradise.",
+        "pole": "farmer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/backyard_farmer_icon.png",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/backyard_farmer_143x165.png",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/backyard_farmer_253x292.png"
+        },
+        "stats": {
+            "challenges": 18,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 67,
+        "url": "baker",
+        "active": true,
+        "title": "Baker",
+        "description": "Bakers transform simple ingredients into cherished comfort. At its core, bread is just flour and water, fermented in the open air, and baked in a hot oven. This idea of bread is 8,000 years old, and has spread the world over to become a cornerstone of cuisine.",
+        "pole": "artist",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/baker_icon.png",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/baker_143x165.png",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/baker_253x292.png"
+        },
+        "stats": {
+            "challenges": 16,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 61,
+        "url": "beekeeper",
+        "active": true,
+        "title": "Beekeeper",
+        "description": "The natural world can function only with the help of Bees. Most plants can't create a seed, nut, berry, or fruit without the aid of a pollinator. But Bees are undergoing a mysterious decline, and it's up to the great Beekeepers of our age to bring Bees back.",
+        "pole": "farmer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/beekeeper_icon.png",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/beekeeper_143x165.png",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/beekeeper_253x292.png"
+        },
+        "stats": {
+            "challenges": 8,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 24,
+        "url": "bikemechanic",
+        "active": true,
+        "title": "Bike Mechanic",
+        "description": "Bicycles are all about converting human power into mechanical motion. The assembly, setup, and maintenance of bicycles draw on expertise from a wide range of disciplines including everything from understanding gear ratios to human anatomy and even kinetics.",
+        "pole": "engineer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/bikemechanic_icon.png?4",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/bikemechanic_143x165.png?4",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/bikemechanic_253x292.png?4"
+        },
+        "stats": {
+            "challenges": 10,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 37,
+        "url": "biologist",
+        "active": true,
+        "title": "Biologist",
+        "description": "Biologists are fascinated by the processes of life in all its forms.  They study microscopic cells, vast ecosystems, and everything in between. Discoveries in biology can change life as we know it, leading to new medicines, new technologies, and new theories for both our future and our past.",
+        "pole": "scientist",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/biologist_icon.png?2",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/biologist_143x165.png?2",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/biologist_253x292.png?2"
+        },
+        "stats": {
+            "challenges": 11,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 107,
+        "url": "blockbuilder",
+        "active": true,
+        "title": "Block Builder",
+        "description": "Minecraft, Legos, wood, or voxels – a Block Builder can make anything with these simple, modular parts. Blocks are a tool of the imagination, giving us simple limits that invite ingenious inventions. If you can think it, then you can build it with blocks.",
+        "pole": "builder",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/block_builder2_icon.png",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/block_builder2_143x165.png",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/block_builder2_253x292.png"
+        },
+        "stats": {
+            "challenges": 15,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 40,
+        "url": "camper",
+        "active": true,
+        "title": "Camper",
+        "description": "Campers seek the wilderness. Wherever they are can be their home, for they're at home in nature. But dangers abound for those who pack a home upon their back. Staying warm, dry, fed, and hydrated is the game. Preparation and bravery are of equal and utmost importance.",
+        "pole": "farmer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/camper_icon.png?2",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/camper_143x165.png?2",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/camper_253x292.png?2"
+        },
+        "stats": {
+            "challenges": 9,
+            "requirement": 3
+        },
+        "notes": "example for Practice Survival Skills\nroom for 1 or 2 easy backyard skills at the top?\n   added 2 easy skills - backyard survival training and practice setting up your tent - pl 03/08/13"
+    },
+    {
+        "id": 21,
+        "url": "cartographer",
+        "active": true,
+        "title": "Cartographer",
+        "description": "Cartographers make maps. Through imagery, they help us to understand places. They decide what features are important to a map – be they trails, forests, landmarks, or ice cream parlors. Anything that exists can be placed on a map, but a great Cartographer decides what isn’t shown, and what is.",
+        "pole": "farmer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/cartographer_icon.png?4",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/cartographer_143x165.png?2",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/cartographer_253x292.png?2"
+        },
+        "stats": {
+            "challenges": 11,
+            "requirement": 3
+        },
+        "notes": ""
+    },
+    {
+        "id": 45,
+        "url": "chef",
+        "active": true,
+        "title": "Chef",
+        "description": "Through alchemy of fire and knife, a Chef brings out the best in food. Chef literally means \"chief,\" or head of the kitchen. They must be a chemist, artist, and entertainer, all at once. Food is energy and we are drawn to it by nature. A Chef transforms food into art.",
+        "pole": "farmer",
+        "images": {
+            "small": "//d1973c4qjhao9m.cloudfront.net/patches/chef_icon.png?2",
+            "medium": "//d1973c4qjhao9m.cloudfront.net/patches/chef_143x165.png?2",
+            "large": "//d1973c4qjhao9m.cloudfront.net/patches/chef_253x292.png?2"
+        },
+        "stats": {
+            "challenges": 12,
+            "requirement": 3
+        },
+        "notes": "add challenges:\ninvent a recipe\nmake a cookbook\nsautee\ncook a vegetarian meal"
+    }
+]
