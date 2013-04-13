@@ -3,7 +3,7 @@ var test        = require('tap').test,
 
 var input       = require('../fixtures/mock_api.json');
 strainer(input, function (key, value) {
-    if (key === 'pole' && value === 'hacker') return true;
+    if (key === 'pole' && value === 'farmer') return true;
     return;
 }, function (err, result) {
     console.dir(err);
@@ -11,7 +11,7 @@ strainer(input, function (key, value) {
 
     test('integration', function (t) {
         t.equal(err, null, 'error object should be null');
-        t.equal(result.length, 1, 'result is of expected length');
+        t.equal(result.length, 5, 'result is of expected length');
         t.end();
     });
 });
