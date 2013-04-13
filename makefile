@@ -2,4 +2,7 @@ test:
 	tap test/governance/*.js
 	tap test/integration/*.js
 
-.PHONY: test
+benchmark:
+	@node test/benchmark/array.js
+
+.PHONY: test, benchmark
