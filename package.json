@@ -9,7 +9,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "tap ./test/*.js"
+    "test": "make test"
   },
   "dependencies": {
     "async": "~0.1.22",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "codebux": "~0.1.2",
+    "jshint-tap-simple": "~1.0.2",
     "tap": "~0.3.1"
   },
   "optionalDependencies": {},

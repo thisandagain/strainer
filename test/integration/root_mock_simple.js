@@ -1,7 +1,7 @@
 var test        = require('tap').test,
     strainer    = require('../../lib/index');
 
-var input       = require('../fixutres/mock_simple.json');
+var input       = require('../fixtures/mock_simple.json');
 strainer(input, function (key, value) {
     if (key === 'a' && value === 'a') return true;
     if (key === 'a' && value === 'b') return true;

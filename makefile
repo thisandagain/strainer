@@ -1,5 +1,5 @@
-generator:
-	@echo Installing dependencies...
-	npm install
+test:
+	tap test/governance/*.js
+	tap test/integration/*.js
 
-.PHONY: generator
+.PHONY: test
