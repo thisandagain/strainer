@@ -11,7 +11,7 @@ npm install strainer
 var strainer    = require('strainer');
 var input       = require('fs').createReadStream('/some/array.json');
 
-input.pipe(strainer(function (k, v) {
+input.pipe(strainer(function (key, value) {
     if (key === k && value === v) return true;
     return;
 }).pipe(process.stdout);
