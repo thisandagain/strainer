@@ -5,8 +5,10 @@ var input       = require('../fixtures/mock_api.json');
 console.time('bench');
 strainer({
     input:  input,
-    key:    'pole',
-    value:  'farmer'
+    key:    'stats.challenges',
+    value:  function (val) {
+        return val > 10;
+    }
 }, function (err, result) {
     console.timeEnd('bench');
     console.dir(err);
@@ -14,7 +16,7 @@ strainer({
 
     test('integration', function (t) {
         t.equal(err, null, 'error object should be null');
-        t.equal(result.length, 5, 'result is of expected length');
+        t.equal(result.length, 7, 'result is of expected length');
         t.end();
     });
 });

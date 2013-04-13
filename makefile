@@ -5,4 +5,4 @@ test:
 benchmark:
 	@node test/benchmark/array.js
 
-.PHONY: test, benchmark
+.PHONY: test benchmark
