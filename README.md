@@ -1,5 +1,5 @@
 ## strainer
-#### Use simple equality tests to filter streams and arrays of objects.
+#### Simple tools for filtering arrays and object streams.
 
 ### Installation
 ```bash
