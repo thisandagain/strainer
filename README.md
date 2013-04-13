@@ -11,10 +11,7 @@ npm install strainer
 var strainer    = require('strainer');
 var input       = require('fs').createReadStream('/some/array.json');
 
-input.pipe(strainer(function (key, value) {
-    if (key === k && value === v) return true;
-    return;
-}).pipe(process.stdout);
+input.pipe(strainer('foo', 'bar').pipe(process.stdout);
 ```
 
 ### Basic Use (Array / Callback)
@@ -22,10 +19,7 @@ input.pipe(strainer(function (key, value) {
 var strainer    = require('strainer');
 var input       = [];
 
-strainer(input, function (k, v) {
-    if (key === k && value === v) return true;
-    return;
-}, function (err, result) {
+strainer(input, 'foo', 'bar', function (err, result) {
     // 
 });
 ```
