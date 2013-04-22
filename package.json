@@ -12,8 +12,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "jsonparse": "0.0.5",
-    "through": "~2.2.7"
+    "event-stream": "~3.0.13"
   },
   "devDependencies": {
     "codebux": "~0.1.2",

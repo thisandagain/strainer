@@ -38,13 +38,7 @@ strainer({
 });
 ```
 
-### "Deep" Keys
-Keys follow JS idioms and can get pretty ridiculous if you need them to:
-```javascript
-
-```
-
-### Using functions as values
+### Using Functions as Values
 If a function is provided as the "value" attribute, it will be used as a subroutine to evaluate each object. For example:
 ```javascript
 var strainer    = require('strainer');
@@ -61,7 +55,7 @@ strainer({
 });
 ```
 
-This affords the use of other modules to aid in evaluating the filter. Here's an example using the [deep-equal]() module:
+This affords the use of other modules to aid in evaluating the filter. For example, using the [deep-equal]() module:
 ```javascript
 var deep        = require('deep-equal'),
     strainer    = require('strainer');
