@@ -7,7 +7,9 @@ var storage     = [];
 var input       = fs.createReadStream(__dirname + '/../fixtures/mock_simple.json');
 var tubes       = input.pipe(strainer({
     key:    'level1.level2.level3.a',
-    value:  'a'
+    value:  function (val) {
+        return val === 'a';
+    }
 }));
 
 // Stream handlers
