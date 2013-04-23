@@ -1,6 +1,8 @@
 ## strainer
 #### Simple filtering of arrays and object streams.
 
+[![Build Status](https://travis-ci.org/thisandagain/strainer.png?branch=master)](https://travis-ci.org/thisandagain/strainer)
+
 ### Installation
 ```bash
 npm install strainer
