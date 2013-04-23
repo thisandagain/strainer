@@ -1,9 +1,8 @@
-var test        = require('tap').test,
-    fs          = require('fs'),
+console.time('bench');
+var fs          = require('fs'),
     strainer    = require('../../lib/index');
 
 // Setup
-console.time('bench');
 var storage     = [];
 var input       = fs.createReadStream(__dirname + '/../fixtures/bench.json');
 var tubes       = input.pipe(strainer({
@@ -16,7 +15,11 @@ tubes.on('data', function (data) {
     storage.push(JSON.parse(data)[0]);
 });
 
+tubes.on('error', function (err) {
+    console.dir(err);
+});
+
 tubes.on('end', function () {
-    console.log('length: ' + storage.length);
     console.timeEnd('bench');
+    console.dir(process.memoryUsage());
 });
