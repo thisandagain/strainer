@@ -6,6 +6,20 @@
 npm install strainer
 ```
 
+### Basic Use (Array / Callback)
+```javascript
+var strainer    = require('strainer');
+var input       = [{'bar':'foo'}, {'foo':'bar'}];
+
+strainer({
+    input:  someArray,
+    key:    'foo',
+    value:  'bar'
+}, function (err, result) {
+    // [{foo: "bar"}]
+});
+```
+
 ### Basic Use (Stream)
 ```json
 [
@@ -22,20 +36,6 @@ input.pipe(strainer({
     key:    'foo',
     value:  'bar'
 })).pipe(process.stdout);
-```
-
-### Basic Use (Array / Callback)
-```javascript
-var strainer    = require('strainer');
-var input       = [{'bar':'foo'}, {'foo':'bar'}];
-
-strainer({
-    input:  someArray,
-    key:    'foo',
-    value:  'bar'
-}, function (err, result) {
-    // Yay!
-});
 ```
 
 ### Using Functions as Values
