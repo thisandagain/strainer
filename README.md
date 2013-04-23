@@ -81,9 +81,6 @@ Strainer supports the use of JS-style object selectors. For example, let's say y
 
 Here, you could use a selector to filter out a property that is buried deep within each object:
 ```javascript
-var strainer    = require('strainer');
-var input       = require('fs').createReadStream('/some/array.json');
-
 input.pipe(strainer({
     key:    'level2.stuff[0].prop',
     value:  true
@@ -95,7 +92,7 @@ input.pipe(strainer({
 npm test
 ```
 
-### Benchmarks (Warning: naïve)
+### Naïve Benchmarks
 ```bash
 make benchmark
 ```
